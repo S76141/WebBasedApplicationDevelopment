@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Product Inventory System</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <h1>Welcome to our system</h1>
+            
+            <form action="InsertServlet" method="POST">
+                <label>Name:</label>
+                <input type="text" name="name" required><br><br>
+
+                <label>Category:</label>
+                <input type="text" name="category" required><br><br>
+
+                <label>Price:</label>
+                <input type="text" name="price" required><br><br>
+
+                <label>Quantity:</label>
+                <input type="text" name="quantity" required><br><br>
+                
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>
